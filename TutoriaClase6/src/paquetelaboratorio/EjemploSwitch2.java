@@ -16,9 +16,14 @@ public class EjemploSwitch2 {
         Scanner entrada = new Scanner(System.in);
         String matricula;
         // Ejercicio que consiste en reconocer las placas de la amazonia
+        
         System.out.println("¿Cual es su matricula?");
         matricula = entrada.nextLine();
-        char letra = matricula.charAt(0);
+        char letra = matricula.charAt(0); 
+        /*
+        * char sirve para ubicar la pocicion que queramos de la placa que 
+        * ingresa el usuario (en este caso queremos de la posiciòn cero)
+        */
         
         switch(letra){
             case 'k':

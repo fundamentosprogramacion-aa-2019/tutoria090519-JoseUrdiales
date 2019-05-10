@@ -19,7 +19,10 @@ public class EjemploSwitch1 {
         System.out.println("¿Cual es su matricula?");
         matricula = entrada.nextLine();
         char letra = matricula.charAt(0);
-        
+        /*
+        * char sirve para ubicar la pocicion que queramos de la placa que 
+        * ingresa el usuario (en este caso queremos de la posiciòn cero)
+        */
         switch(letra){
             case 'e':
             case 'E':
