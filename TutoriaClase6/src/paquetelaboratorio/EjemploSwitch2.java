@@ -15,7 +15,7 @@ public class EjemploSwitch2 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         String matricula;
-        // Ejercicio que consiste en reconocer las placas de la región Costa
+        // Ejercicio que consiste en reconocer las placas de la amazonia
         System.out.println("¿Cual es su matricula?");
         matricula = entrada.nextLine();
         char letra = matricula.charAt(0);
